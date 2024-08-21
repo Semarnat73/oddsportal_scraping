@@ -399,8 +399,8 @@ async def main():
     async with async_playwright() as playwright:
         # Declarar variables
         base_url = "https://www.oddsportal.com"
-        url_scrap = "/football/italy/serie-a/"
-        temp_out = '/home/semarnat/soccer/data/italy_serie-a.csv'
+        url_scrap = "/football/paraguay/primera-division/results/"
+        temp_out = '/home/semarnat/soccer/data/paraguay_primera-division.csv'
         scrap_url = base_url + url_scrap
         
             # Configurar el navegador
